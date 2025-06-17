@@ -29,7 +29,7 @@ const ExchangeRateTable = ({ prices }: IExchangeRateTable) => {
     <div className="mt-10 px-4 flex justify-center">
       <div>
         <h2 className="text-4xl font-bold text-center mb-8">Currency Exchange Table</h2>
-        <div className="max-w-[60vw] max-h-[500px] overflow-scroll">
+        <div className="max-w-[90vw] md:max-w-[60vw] max-h-[500px] overflow-scroll">
 
           <TableContainer component={Paper} className="max-w-full overflow-x-auto">
             <Table size="small" stickyHeader>

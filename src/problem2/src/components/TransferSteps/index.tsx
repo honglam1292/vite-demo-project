@@ -22,11 +22,11 @@ export default function TransferSteps({ from, to }: ITransferSteps) {
 
   return (
     <div className="">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
+      <h2 className="text-3xl md:text-4xl font-bold px-2 text-center mb-10">
         How to convert from {from} to {to}
       </h2>
 
-      <section className="bg-white rounded-xl shadow p-10 w-full max-w-[95vw] md:!max-w-4xl mx-auto text-black">
+      <section className="bg-white rounded-xl shadow p-10 w-full max-w-[90vw] md:!max-w-4xl mx-auto text-black">
         <div className="grid grid-rows-1 md:grid-cols-3 gap-6">
           {steps.map((step, index) => (
             <div
